@@ -58,10 +58,10 @@ dbca -silent \
 
 
 
-sqlplus / as sysdba
-select instance_name,status from v$instance;
-startup
-	already
-shutdown
-startup
-exit
+sqlplus / as sysdba  
+select instance_name,status from v$instance;  
+startup  
+	already  
+shutdown  
+startup  
+exit  
