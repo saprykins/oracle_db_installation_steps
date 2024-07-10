@@ -1,5 +1,22 @@
 # oracle_db_installation_steps
 
+Run file:  
+```
+deploy-vm.sh
+```
+```
+#!/bin/bash
+az group create --name rg-oracle --location eastus
+```
+```
+chmod +x deploy-vm.sh
+```
+```
+./deploy-vm.sh
+```
+
+
+
 source is here: https://learn.microsoft.com/en-us/azure/virtual-machines/workloads/oracle/oracle-database-quick-create
 
 Steps 
