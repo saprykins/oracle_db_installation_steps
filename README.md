@@ -74,11 +74,22 @@ dbca -silent \
     -ignorePreReqs
 
 
-
+```
 sqlplus / as sysdba  
+```
+```
 select instance_name,status from v$instance;  
+```
+```
 startup  
-	already  
-shutdown  
-startup  
-exit  
+```
+   but it's already running
+```
+shutdown
+```
+```
+startup
+```
+```
+exit
+```
