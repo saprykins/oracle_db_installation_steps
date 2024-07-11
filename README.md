@@ -1,5 +1,3 @@
-# oracle_db_installation_steps
-
 # Creation of Oracle in Azure  
 [Prepare VM environment](https://learn.microsoft.com/en-us/azure/virtual-machines/workloads/oracle/oracle-database-quick-create)
 
